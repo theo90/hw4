@@ -19,9 +19,9 @@ int main()
 	double* p=new double[N];
 //	string fname="nois_filter";
 	copy_txt (p, N);
-	cout<<"\n gefiltert: \n";
+//	cout<<"\n gefiltert: \n";
 	filter_nois(p, N);
-       file_make(p, N);
+        file_make(p, N);
 	delete_arr(p);
 	
 	
