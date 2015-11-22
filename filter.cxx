@@ -21,7 +21,7 @@ int main()
 	copy_txt (p, N);
 	cout<<"\n gefiltert: \n";
 	filter_nois(p, N);
-    file_make(p, N);
+       file_make(p, N);
 	delete_arr(p);
 	
 	
@@ -34,7 +34,7 @@ void copy_txt (double* p, const int N)
 	if(! input)
 	{
 		cout<<"die Datei wurde nicht gefunden.";
-		exit(1);
+		//exit(1);
 	}
 	for(int i=0; i<N; i++)
 	{
