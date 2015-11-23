@@ -15,7 +15,7 @@ using namespace std;
 
 int main()
 {
-    const int N=237;
+    	const int N=237;
 	double* p=new double[N];
 //	string fname="nois_filter";
 	copy_txt (p, N);
@@ -25,7 +25,7 @@ int main()
 	delete_arr(p);
 	
 	
-    return 0;
+  return 0;
 }
 
 void copy_txt (double* p, const int N)
